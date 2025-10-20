@@ -123,7 +123,7 @@ async function callFireworks(messages: any[]) {
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      model: "accounts/sentientfoundation-serverless/models/dobby-mini-unhinged-plus-llama-3-1-8b",
+      model: "accounts/fireworks/models/llama-v3p1-8b-instruct",
       max_tokens: 1024,
       temperature: 0.2,
       messages,
@@ -133,12 +133,46 @@ async function callFireworks(messages: any[]) {
   return resp.json()
 }
 
+// ✅ Basic small-talk fallback
+    function smallTalkResponse(message: string) {
+    const msg = message.toLowerCase().trim()
+
+    // Greetings
+    if (/^(hi|hey|hello|yo|hiya)\b/.test(msg)) {
+        return "Hey there 👋 I'm Genswarm, your friendly Gensyn assistant. How’s everything going?"
+    }
+
+    // Casual check-ins
+    if (/(how(('| a)re)? (you|ya|u)|what('?s| is) up|how('?s| is) it going|how do you do)/i.test(msg)) {
+        return "I'm running at full capacity ⚡— ready to talk Gensyn, SkipPipe, or anything AI compute-related!"
+    }
+
+    // Thanks / appreciation
+    if (/thank(s| you)?|appreciate/i.test(msg)) {
+        return "You're very welcome! Always happy to help 🤝"
+    }
+
+    // Farewells
+    if (/bye|goodbye|see you|later|take care/i.test(msg)) {
+        return "Catch you later 👋 Stay curious!"
+    }
+
+    return null
+    }
+
+
 // ✅ Main API route
 export async function POST(req: Request) {
   try {
     const { message } = await req.json()
     if (!message?.trim()) {
       return Response.json({ error: "No message" }, { status: 400 })
+    }
+
+    // 🟡 Handle small talk directly (no Fireworks or source fetching)
+    const casual = smallTalkResponse(message)
+    if (casual) {
+    return Response.json({ reply: casual })
     }
 
     // Fetch sources
@@ -165,7 +199,7 @@ export async function POST(req: Request) {
       if (!foundHandle) {
         return Response.json({
           reply:
-            "I couldn’t find an official social handle in the verified sources. You can follow Gensyn’s updates on [Docs](https://docs.gensyn.ai) or [Discord](https://discord.gg/gensyn).",
+            "I couldn’t find an official social handle in the verified sources. You can follow Gensyn’s updates on [Docs] https://docs.gensyn.ai or [Discord] https://discord.gg/gensyn.",
           sources: AUTH_SOURCES,
         })
       }
