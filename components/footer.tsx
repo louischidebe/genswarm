@@ -49,7 +49,7 @@ export function Footer() {
               <span className="text-sm">Discord</span>
             </Link>
             <Link
-              href="https://x.com/gensyn"
+              href="https://x.com/gensynai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/50 hover:text-foreground transition-colors"
