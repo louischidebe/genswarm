@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What consensus model underpins Gensyn’s decentralized compute verification?",
+      "options": [
+        "Distributed consensus",
+        "Proof of Stake",
+        "Byzantine Fault Tolerance",
+        "Delegated authority"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of RL Swarm?",
+      "options": [
+        "To coordinate decentralized reinforcement learning tasks",
+        "To mine blocks faster",
+        "To verify transaction signatures",
+        "To host Gensyn’s website"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "How do Gensyn nodes earn rewards?",
+      "options": [
+        "By contributing compute power to training AI models",
+        "By staking tokens",
+        "By validating user accounts",
+        "By mining cryptocurrency"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "What language is Gensyn's BlockAssist tool written in?",
+      "options": ["Python", "Rust", "TypeScript", "Go"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "question": "What kind of AI models does Gensyn primarily support?",
+      "options": [
+        "Reinforcement learning and large-scale training",
+        "Generative art",
+        "Chat-only models",
+        "Game AIs"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of these best describes Gensyn’s vision?",
+      "options": [
+        "Democratize access to machine learning computation",
+        "Centralize AI training in large data centers",
+        "Provide a token-only economy",
+        "Eliminate open-source models"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "What kind of resource do Gensyn nodes contribute?",
+      "options": ["Compute power", "Network bandwidth", "Disk space", "Data storage"],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "Where can users read about Gensyn’s foundational theory?",
+      "options": [
+        "docs.gensyn.ai/litepaper",
+        "blog.gensyn.ai",
+        "discord.gg/gensyn",
+        "gensyn.ai/testnet"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "What type of computation does Gensyn distribute?",
+      "options": ["Machine learning training tasks", "Data storage", "Video rendering", "Mining"],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "Which open-source repository contains node setup details?",
+      "options": [
+        "github.com/gensyn-ai/rl-swarm",
+        "github.com/gensyn-ai/blockassist",
+        "github.com/gensyn-ai/docs",
+        "github.com/gensyn-ai/testnet"
+      ],
+      "correct": 0
+    }
+  ]
+}

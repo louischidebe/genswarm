@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Gensyn?",
+      "options": [
+        "A decentralized AI compute network",
+        "A social media platform",
+        "A cryptocurrency wallet",
+        "A centralized data center"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "What can users do on the Gensyn network?",
+      "options": ["Run AI models locally", "Run nodes to earn rewards", "Trade NFTs", "Stream videos"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "question": "What programming concept powers Gensyn's learning systems?",
+      "options": ["Reinforcement learning", "Deepfakes", "Cryptography", "Image compression"],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "What tool helps optimize block validation in Gensyn?",
+      "options": ["BlockAssist", "DataSync", "AI Explorer", "ChainCheck"],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Where can you find Gensyn’s technical documentation?",
+      "options": [
+        "docs.gensyn.ai",
+        "blog.gensyn.ai",
+        "gensyn.ai/research",
+        "github.com"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "What is the Gensyn community called?",
+      "options": ["The Hive", "The Swarm", "The Grid", "The Core"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "question": "Which page contains Gensyn’s research papers?",
+      "options": [
+        "gensyn.ai/research",
+        "gensyn.ai/testnet",
+        "docs.gensyn.ai",
+        "x.com/gensynai"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the Gensyn Testnet?",
+      "options": [
+        "To test the network and reward node runners",
+        "To store NFTs",
+        "To mine new tokens",
+        "To host AI competitions"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "What type of system is Gensyn?",
+      "options": ["Centralized", "Hybrid", "Decentralized", "Private cloud"],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "question": "Where can users get help with node setup issues?",
+      "options": [
+        "The Discord community",
+        "Customer support email",
+        "Telegram",
+        "A contact form"
+      ],
+      "correct": 0
+    }
+  ]
+}

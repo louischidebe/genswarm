@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does Gensyn’s compute verification layer prevent?",
+      "options": [
+        "Dishonest or invalid computation results",
+        "Duplicate model checkpoints",
+        "Model overfitting",
+        "GPU throttling"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "question": "How does Gensyn differentiate itself from traditional AI cloud services?",
+      "options": [
+        "By decentralizing compute verification and coordination",
+        "By offering free compute power",
+        "By centralizing data flow",
+        "By limiting access to enterprises"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "question": "What principle allows Gensyn to verify training without revealing model weights?",
+      "options": [
+        "Zero-knowledge proofs and secure verification",
+        "Plaintext transmission",
+        "Off-chain audits",
+        "Centralized trust"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "question": "In Gensyn, what function does BlockAssist serve during block propagation?",
+      "options": [
+        "Optimizing and validating computation blocks",
+        "Encrypting network packets",
+        "Distributing tokens",
+        "Monitoring node latency"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "question": "Which layer in Gensyn’s design handles decentralized learning orchestration?",
+      "options": ["RL Swarm", "ComputeNet", "SwarmSync", "GensynCore"],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "question": "What economic mechanism aligns incentives across node operators and model trainers?",
+      "options": [
+        "Contribution-based reward distribution",
+        "Flat payment schedule",
+        "Subscription model",
+        "Proof-of-authority validation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 7,
+      "question": "What is a unique advantage of Gensyn’s approach to machine learning verification?",
+      "options": [
+        "It proves correctness without needing full model retraining",
+        "It uses centralized servers for speed",
+        "It caches model states on-chain",
+        "It limits verification to small datasets"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "question": "Which blockchain concept does Gensyn adapt for AI training validation?",
+      "options": ["Proof-of-compute", "Proof-of-stake", "Proof-of-work", "Proof-of-history"],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "question": "What is the key challenge Gensyn aims to solve in distributed machine learning?",
+      "options": [
+        "Trustless verification of external computation",
+        "GPU hardware shortages",
+        "Data labeling",
+        "Parameter sharing"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of the following best describes Gensyn’s potential societal impact?",
+      "options": [
+        "Democratizing AI training by lowering access barriers to compute",
+        "Centralizing machine learning for faster control",
+        "Limiting AI research to academia",
+        "Replacing decentralized networks with private clouds"
+      ],
+      "correct": 0
+    }
+  ]
+}
